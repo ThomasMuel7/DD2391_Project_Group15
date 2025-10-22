@@ -1,0 +1,11 @@
+Problem Statement
+Nowadays, with the rapid development of quantum computing technologies, traditional cryptographic systems that secure modern communications are facing an unprecedented threat. Some of the most reliable encryption methods that were previously intractable for classical computers (such as RSA and ECC (Elliptic Curve Cryptography)), which ensure the security of current digital infrastructures including online banking, data transmission, and digital signatures are now at risk. These systems rely on the computational hardness of mathematical problems like integer factorization and discrete logarithms, which could be efficiently solved by powerful quantum computers.
+Indeed, the emergence of quantum algorithms, such as Shor’s algorithm, demonstrates that a sufficiently powerful quantum computer could efficiently factor large integers and compute discrete logarithms, effectively breaking RSA and ECC encryption. This potential capability threatens the confidentiality and integrity of nearly all existing communication systems.
+The objective of this project is to explore post-quantum cryptography, an area of cryptography designed to resist attacks from both classical and quantum computers. In particular, this project focuses on:
+•	Understanding how RSA works and why it is vulnerable to quantum attacks.
+•	Exploring classical and quantum approaches to breaking RSA (e.g., brute force, GNFS, and Shor’s algorithm).
+•	Introducing the fundamental principles of quantum physics and how they relate to quantum computation.
+•	Implementing and testing simple quantum algorithms using Python and Qiskit, IBM’s open-source quantum computing framework.
+•	Analyzing the implications of quantum computing on current data security and identifying alternative cryptographic methods for the post-quantum era.
+Ultimately, this project aims to provide both theoretical and practical insights into how quantum computing challenges modern cryptography and to evaluate the transition toward quantum-resistant security mechanisms from the basics (prime numbers) to some quantum programs using Qiskit library.
+To run the project, first, read the README to set up the environnement correctly and from there you can start the lab. Enjoy !!! 
